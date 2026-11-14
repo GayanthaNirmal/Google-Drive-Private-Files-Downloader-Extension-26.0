@@ -1,13 +1,31 @@
+<p align="center">
+  <img src="icon.png" alt="Drive Private Video Downloader icon" width="128" height="128">
+</p>
 
-Drive Private Video Downloader
+<h1 align="center">Drive Private Video Downloader</h1>
 
+<p align="center">
+  A Chrome extension that saves Google Drive videos, audio and documents that are shared with you as <b>view-only</b>, straight from the Drive preview.
+</p>
 
- A Chrome extension that saves Google Drive videos, audio and documents that are shared with you as
+<p align="center">
+  <img src="https://img.shields.io/badge/version-2.0-blue" alt="Version 2.0">
+  <img src="https://img.shields.io/badge/Manifest-V3-4285F4?logo=googlechrome&logoColor=white" alt="Manifest V3">
+  <img src="https://img.shields.io/badge/browser-Chrome%20%7C%20Edge%20%7C%20Brave-34A853" alt="Chrome, Edge, Brave">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"></a>
+</p>
 
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-how-to-use">How to use</a> •
+  <a href="#-permissions">Permissions</a> •
+  <a href="#-license">License</a>
+</p>
 
 ---
 
-## Features
+## ✨ Features
 
 - **Videos.** Saves the highest quality stream Drive offers (for example 720p or 1080p) as an `.mp4` file.
 - **Audio.** Saves audio files in their real format (`.m4a`, `.mp3`, `.ogg`, `.wav`, `.flac` …). If the original was an `.mp3` and Drive serves a different format, it is converted back to MP3 (192 kbps) in the browser.
@@ -20,7 +38,7 @@ Drive Private Video Downloader
 - **Auto refresh.** If the video stream isn't picked up, the page is refreshed (up to 4 times) until it is found.
 - **History.** Your download list is kept between sessions and can be cleared with the trash button.
 
-## Installation
+## 📦 Installation
 
 The extension is not on the Chrome Web Store. Load it manually:
 
@@ -33,9 +51,9 @@ The extension is not on the Chrome Web Store. Load it manually:
 4. Click **Load unpacked** and select the extracted folder (the folder that contains `manifest.json`).
 5. Pin the extension to the toolbar so the icon is easy to reach.
 
-## How to use
+## 🚀 How to use
 
-### Video or audio
+### 🎬 Video or audio
 
 1. Open the file on Google Drive (`https://drive.google.com/file/d/…`).
 2. In the sidebar, press **Turn on**.
@@ -44,20 +62,20 @@ The extension is not on the Chrome Web Store. Load it manually:
 
 > If the video doesn't show up, play it again or press **↻** to refresh the Drive page.
 
-### Documents (PDF, DOCX, PPTX …)
+### 📄 Documents (PDF, DOCX, PPTX …)
 
 1. Open the file on Google Drive and wait until the whole document has loaded.
 2. Press **Turn on**, then **Download ↓**.
 3. The extension scrolls through the preview and captures every page. **Keep the Drive tab visible and don't scroll it** until it finishes.
 4. The result is saved as a `.pdf` file.
 
-### Tips
+### 💡 Tips
 
 - Keep the Drive tab open until the download finishes. Closing it stops the download.
 - If you see *"Video URL has expired"*, reload the Drive tab and download again.
 - Files with no Drive preview (`.zip`, `.rar`, `.exe`, `.apk`, `.iso` …) can't be downloaded.
 
-## Permissions
+## 🔐 Permissions
 
 | Permission | Why it is needed |
 | --- | --- |
@@ -69,7 +87,7 @@ The extension is not on the Chrome Web Store. Load it manually:
 
 Nothing is sent to any server other than Google's. There is no tracking or analytics.
 
-## Project structure
+## 📁 Project structure
 
 ```
 ├── manifest.json       Extension manifest (Manifest V3)
@@ -83,11 +101,11 @@ Nothing is sent to any server other than Google's. There is no tracking or analy
     └── lamejs-LICENSE.txt  lamejs license note
 ```
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This project is for **personal and educational use**. Only download files that you own or have the owner's permission to download. Respect copyright and Google's Terms of Service. The author is not responsible for how the extension is used.
 
-## License
+## 📝 License
 
 Released under the [MIT License](LICENSE).
 
